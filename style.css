@@ -12,6 +12,7 @@ body {
 .btn-primary {
   background-color: #115f99;
   border-color: #115f99;
+  color: rgba(254, 246, 210, 1);
 }
 
 .mb-lg {
@@ -39,7 +40,7 @@ body {
 }
 
 .bg-nav {
-  background-color: #ffbcb9;
+  background-color: #ffbcb9d5;
 }
 
 .jumbotron {
@@ -60,7 +61,7 @@ body {
 }
 
 #deald {
-  color: white;
+  color: rgba(254, 246, 210, 1);
 }
 
 /* #deal h2,
@@ -137,4 +138,8 @@ footer {
 
 .star-color {
   color: #0168d9;
+}
+
+.last-minute-text {
+  color: #115f99;
 }
