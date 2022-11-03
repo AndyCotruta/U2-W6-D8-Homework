@@ -18,73 +18,472 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Travel Agency</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light px-5 sticky-top">
       <a class="navbar-brand" href="#">
-        <img
-          src="https://www.clipartmax.com/png/middle/99-997456_explore-travel-logo-png.png"
-          alt="main-logo"
-        />
+        <img src="./travel-logo.png" height="50px" alt="" />
       </a>
       <button
         class="navbar-toggler"
         type="button"
         data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="#"
-              >Home <span class="sr-only">(current)</span></a
+            <a class="nav-link" href="#deal"
+              >Deal of the Week<span class="sr-only">(current)</span></a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              role="button"
-              data-toggle="dropdown"
-              aria-expanded="false"
-            >
-              Dropdown
-            </a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
+            <a class="nav-link" href="#welcome">Welcome Summer</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
+            <a class="nav-link" href="#deald">Deal of the Day</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#last">Last Minute</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonials">Testimonials</a>
           </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input
-            class="form-control mr-sm-2"
-            type="search"
-            placeholder="Search"
-            aria-label="Search"
-          />
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-            Search
-          </button>
-        </form>
       </div>
     </nav>
+    <div class="jumbotron px-5">
+      <h1>Andy's Travel Agency</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, cumque
+        provident illum quidem, deserunt reiciendis ex, distinctio cupiditate
+        perferendis modi incidunt dignissimos a reprehenderit rem earum!
+        Possimus sed perspiciatis esse assumenda nam odio iure accusamus ex
+        soluta pariatur, tempore doloremque nisi delectus ipsam minus distinctio
+        unde veritatis, optio vitae error!
+      </p>
+    </div>
+    <div id="deal" class="container-fluid px-5 deal-of-the-week">
+      <h2>DEAL OF THE WEEK</h2>
+      <div class="row mx-n1">
+        <div class="col-sm-6 col-md-4 col-xl-3 px-1">
+          <div class="card">
+            <img
+              src="https://cdn.getyourguide.com/img/location/6f156967bc6d6563.jpeg/99.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Berlin</h5>
+              <p class="card-text">
+                Berlin, Germany has been my favorite city break destination in
+                Europe. The food is delicious and the people are so friendly. I
+                loved exploring all the different neighborhoods- it's a place
+                that has so much to offer. The museums were also incredible and
+                there was never a dull moment because there was always something
+                to do!
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-xl-3 px-1">
+          <div class="card">
+            <img
+              src="https://www.hurtigruten.no/globalassets/global/destinations/europe/2021/european-atlantic-coast---cultural-highlights/itinerary-pics/day-1-hamburg/hamburg_shutterstock_2_1200x600.jpg?width=1900&height=950&transform=DownFill"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Hamburg</h5>
+              <p class="card-text">
+                Hamburg is a wonderful city break destination! From the stunning
+                architecture to the incredible nightlife and everything in
+                between, you will be hard pressed to find anything better. The
+                locals are friendly and welcoming and the food is divine.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-xl-3 px-1">
+          <div class="card">
+            <img
+              src="https://www.travelcircus.de/urlaubsziele/wp-content/uploads/lübeck1-shutterstock.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Lubeck</h5>
+              <p class="card-text">
+                I had a fantastic time in Lubeck and I highly recommend it as a
+                city break destination! I loved how alive the place felt, how
+                fast paced the day felt, and how welcoming everyone was. The
+                hotel we were staying at was so beautiful with a lot of history.
+                The shops there were great too - cool independent brands and
+                high street favorites.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-xl-3 px-1">
+          <div class="card">
+            <img
+              src="https://dinosontour.de/wp-content/uploads/2021/01/schwerin-sehenswuerdigkeiten-tipps.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Schwerin</h5>
+              <p class="card-text">
+                Schwerin is a charming city break destination. The people are
+                friendly and the food is delicious. You can't go wrong with
+                exploring the city or getting lost in the rich history of
+                castles, churches, and museums nearby.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="welcome" class="container-fluid mt-5 px-5 welcome-summer">
+      <h2>Welcome Summer</h2>
+      <div class="row mx-n1">
+        <div class="col-sm-6 col-md-4 col-xl-2 mb-sm-2 mb-md-2 px-1">
+          <div class="card">
+            <img
+              src="https://www.insidehook.com/wp-content/uploads/2022/06/Valle-De-Guadalupe.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Valle De Guadalupe, Mexico</h5>
+              <p class="card-text">
+                Valle De Guadalupe is Mexico’s wine country and perhaps its most
+                burgeoning secret. In my opinion, it’s way cooler than Napa (and
+                more wallet-friendly). The area is full of design-forward
+                boutique hotels, upscale restaurants helmed by some of Mexico’s
+                best chefs and a wealth of wineries. And the best part? Only an
+                hour and a half from the San Diego/Tijuana border, Valle De
+                Guadalupe makes for a great “weekender.”
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-xl-2 mb-sm-2 mb-md-2 px-1">
+          <div class="card">
+            <img
+              src="https://www.insidehook.com/wp-content/uploads/2022/06/Santorini.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Santorini, Greece</h5>
+              <p class="card-text">
+                Head over to Oia, Santorini’s most photographed locale, and take
+                in the beauty of all the white-clad cave houses that cascade
+                down to the sea. Stroll the main thoroughfare, where upscale
+                boutiques, terracing restaurants and breathtaking viewpoints
+                await.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-xl-2 mb-sm-2 mb-md-2 px-1">
+          <div class="card">
+            <img
+              src="https://www.insidehook.com/wp-content/uploads/2022/06/Denver.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Denver, Colorado</h5>
+              <p class="card-text">
+                Many consider Denver to be nothing more than a transit hub,
+                where you have a layover before catching a connecting flight to
+                ski towns such as Vail or Aspen. Well, you heard it here: Denver
+                is one of the U.S.’s most understatedly cool destinations. Its
+                endless breweries, ubiquitous food halls, robust boutique hotel
+                scene and unassuming street art presence are all part of an
+                appealing tonic that make it one of the country’s
+                fastest-growing cities.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-xl-2 mb-sm-2 mb-md-2 px-1">
+          <div class="card">
+            <img
+              src="https://www.insidehook.com/wp-content/uploads/2022/06/Cannes.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Cannes, France</h5>
+              <p class="card-text">
+                Shop the several independent French boutiques on Rue des Antibes
+                (lots of chic menswear here). Amble around the town’s historic
+                Le Suquet neighborhood and make your way up to the Musée de la
+                Castre: a medieval fortress and castle with the best view in
+                Cannes. If craving a dip into the Mediterranean, the lengthy
+                stretch of beach lining La Croisette is an excellent place to
+                set up shop.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-xl-2 mb-sm-2 mb-md-2 px-1">
+          <div class="card">
+            <img
+              src="https://www.insidehook.com/wp-content/uploads/2022/06/St-Moritz.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">St. Moritz, Switzerland</h5>
+              <p class="card-text">
+                Ski destination or not, St. Moritz is a Swiss jewel. It has a
+                charming city center with tons of shops and galleries, hiking
+                trails galore and a picture-perfect lake. To say summer here is
+                dreamy is an understatement.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-xl-2 mb-sm-2 mb-md-2 px-1">
+          <div class="card">
+            <img
+              src="https://www.insidehook.com/wp-content/uploads/2022/06/Ibiza.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Ibiza, Spain</h5>
+              <p class="card-text">
+                This Balearic Isle is much more than DJ residencies. Its
+                expansive natural landscapes, picture-perfect beaches,
+                ivory-white small towns with cobblestone streets and old fincas
+                hidden in olive tree mazes will change any pre-conceived
+                “party-all-day” perception you harbored about Ibiza.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      id="deald"
+      class="container-fluid d-none d-sm-block mt-3 px-5 deal-of-the-day"
+    >
+      <h2>Deal of the Day</h2>
+      <div class="row mx-n1">
+        <div class="col-8 px-1">
+          <img
+            class="deal-image"
+            src="https://www.insidehook.com/wp-content/uploads/2022/06/Marrakech.jpg"
+            alt=""
+          />
+        </div>
+        <div class="col-4 px-1">
+          <h3 class="px-2">Marrakesh, Morocco</h3>
+          <p class="px-2">03.11.2022</p>
+          <p class="px-2">3000$</p>
+          <p class="px-2">
+            Marrakesh, Morocco, is both multi-faceted and enchanting — from its
+            main thoroughfare medina with merchants selling traditional craft
+            (you’ll be tempted to buy a new rug for your apartment), to its
+            high-end hospitality scene that often welcomes the world’s elite.
+          </p>
+          <button class="btn btn-primary">Buy Now</button>
+        </div>
+      </div>
+    </div>
+    <div id="last" class="container-fluid mt-5 px-5 last-minute">
+      <h2>Last Minute</h2>
+      <div class="row mx-n1">
+        <div class="col-sm-6 col-md-4 col-xl-2 px-1">
+          <div class="card bg-dark text-white">
+            <img
+              src="https://www.insidehook.com/wp-content/uploads/2022/06/Valle-De-Guadalupe.jpg"
+              class="card-img"
+              alt="..."
+            />
+            <div class="card-img-overlay">
+              <h5 class="card-title">Mexico</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-xl-2 px-1">
+          <div class="card bg-dark text-white">
+            <img
+              src="https://www.insidehook.com/wp-content/uploads/2022/06/Santorini.jpg"
+              class="card-img"
+              alt="..."
+            />
+            <div class="card-img-overlay">
+              <h5 class="card-title">Santorini</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-xl-2 px-1">
+          <div class="card bg-dark text-white">
+            <img
+              src="https://www.insidehook.com/wp-content/uploads/2022/06/Denver.jpg"
+              class="card-img"
+              alt="..."
+            />
+            <div class="card-img-overlay">
+              <h5 class="card-title">Denver</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-xl-2 px-1">
+          <div class="card bg-dark text-white">
+            <img
+              src="https://www.insidehook.com/wp-content/uploads/2022/06/Cannes.jpg"
+              class="card-img"
+              alt="..."
+            />
+            <div class="card-img-overlay">
+              <h5 class="card-title">Cannes</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-xl-2 px-1">
+          <div class="card bg-dark text-white">
+            <img
+              src="https://www.insidehook.com/wp-content/uploads/2022/06/St-Moritz.jpg"
+              class="card-img"
+              alt="..."
+            />
+            <div class="card-img-overlay">
+              <h5 class="card-title">St.Moritz</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-xl-2 px-1">
+          <div class="card bg-dark text-white">
+            <img
+              src="https://www.insidehook.com/wp-content/uploads/2022/06/Ibiza.jpg"
+              class="card-img"
+              alt="..."
+            />
+            <div class="card-img-overlay">
+              <h5 class="card-title">Ibiza</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="testimonials" class="container-fluid mt-5 px-5 testimonials">
+      <h2>Testimonials</h2>
+      <div class="row mx-n1">
+        <div class="col-sm-6 col-md-4 col-xl-2 px-1">
+          <div class="card">
+            <img src="avatar-1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text">
+                I don't know where to start. This agency is literally the best
+                in town. I have been working with them for about five years and
+                they are absolutely everything you could ever want. You get
+                top-notch service, without the damn annoying high prices, every
+                time.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-xl-2 px-1">
+          <div class="card">
+            <img src="avatar-2.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text">
+                I found Andy Agency on a blog and was amazed at how their work
+                caught my eye. I contacted them and they were very friendly to
+                work with. They provide great service and the best quality of
+                content. They are always available when I need help and I can
+                tell that they really care about their clients.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-xl-2 px-1">
+          <div class="card">
+            <img src="avatar-3.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text">
+                Andy Agency is the best agency I have ever worked with! They
+                have a proven track record, won some awards and are experts in
+                the field. I had no doubts about working with them.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-xl-2 px-1">
+          <div class="card">
+            <img src="avatar-4.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text">
+                I booked my first trip to Italy with Andy Agency. The staff was
+                friendly and helped me navigate every step of the way from
+                flights and accommodation to tour packages. I am very happy with
+                the service they provided and would recommend them to any
+                traveler looking for a reliable agency.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-xl-2 px-1">
+          <div class="card">
+            <img src="avatar-5.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text">
+                I've been working with Andy Agency for a year now. They are the
+                best agency I have ever worked with. The staff is always
+                responsive and they're always willing to go the extra mile. I am
+                highly satisfied and recommend them to anyone looking for an
+                agency that's on your side.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-xl-2 px-1">
+          <div class="card">
+            <img src="avatar-6.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text">
+                Now, I am not usually one to write reviews but after everything
+                that happened with Andy Agency recently I had to speak up. The
+                company offered me the best travel package deal, really great
+                customer service and they even included a last minute flight
+                bought by one of their agents. You will not regret going with
+                them!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid mt-5 px-5 footer">
+      <footer>
+        <p>About Us</p>
+        <p>Contact Us</p>
+      </footer>
+    </div>
     <!-- JavaScript Bundle with Popper -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
